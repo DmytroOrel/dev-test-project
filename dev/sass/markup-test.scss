@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: $body-bg;
+    min-height: 100vh;
+    color: $text-cl;
+}
+a{
+    color: $primary-cl;
+}

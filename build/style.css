@@ -37,4 +37,16 @@ footer {
   background: #f00;
   margin-top: auto;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #282B38;
+  min-height: 100vh;
+  color: #fff;
+}
+
+a {
+  color: #E58D35;
+}
 /*# sourceMappingURL=style.css.map */
