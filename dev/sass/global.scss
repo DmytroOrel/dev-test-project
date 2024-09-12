@@ -13,3 +13,23 @@ a{
         text-decoration: underline;
     }
 }
+li{
+    &::marker{
+        color: $primary-cl;
+    }
+}
+ul{
+    li{
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            top: 7px;
+            left: -19px;
+            background-color: $primary-cl;
+            transform: rotate(45deg)
+        }
+    }
+}
