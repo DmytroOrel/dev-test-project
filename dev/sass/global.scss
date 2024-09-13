@@ -38,26 +38,44 @@ ul{
     border-radius: 90px;
     line-height: 146%;
     font-weight: 600;
-    padding: 13px 48px;
+    padding: 13px 23px;
+    border: 1px solid $primary-cl;    
+
+   &:hover{
+    text-decoration: none;
+    border: 1px solid $primary-cl;    
+   }
+   
     &.btn-primary{
         background-color: $primary-cl;
-        border: 1px solid $primary-cl;    
     }
+   
+   
     &.btn-primary:hover{
         background-color: transparent;
-        border: 1px solid $primary-cl;     
     }
-}
-.btn.btn-primary:active,
-.btn.btn-secondary:active{
+   
+   
+    &.btn-secondary{
+        background-color: transparent;
+    }
+        &:hover{
+            background-color: $primary-cl;
+    }
+   
+   
+    &.btn-primary:active,
+    &.btn-secondary:active{
     background-color: $secondary-cl;
     border-color: $secondary-cl;
-}
-.btn-secondary{
-    background-color: transparent;
-    border: 1px solid $primary-cl;
-    &:hover{
-        background-color: $primary-cl;
-        border: 1px solid $primary-cl;   
     }
+}
+.btn-lg{
+    font-size: 16px;
+    padding: 19px 20px;
+}
+.btn img{
+    width: 27px;
+    height: 27px;
+    margin-left: 46px;
 }

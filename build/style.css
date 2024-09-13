@@ -79,29 +79,38 @@ ul li::before {
   border-radius: 90px;
   line-height: 146%;
   font-weight: 600;
-  padding: 13px 48px;
+  padding: 13px 23px;
+  border: 1px solid #E58D35;
+}
+.btn:hover {
+  text-decoration: none;
+  border: 1px solid #E58D35;
 }
 .btn.btn-primary {
   background-color: #E58D35;
-  border: 1px solid #E58D35;
 }
 .btn.btn-primary:hover {
   background-color: transparent;
-  border: 1px solid #E58D35;
 }
-
-.btn.btn-primary:active,
-.btn.btn-secondary:active {
+.btn.btn-secondary {
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: #E58D35;
+}
+.btn.btn-primary:active, .btn.btn-secondary:active {
   background-color: #89C249;
   border-color: #89C249;
 }
 
-.btn-secondary {
-  background-color: transparent;
-  border: 1px solid #E58D35;
+.btn-lg {
+  font-size: 16px;
+  padding: 19px 20px;
 }
-.btn-secondary:hover {
-  background-color: #E58D35;
-  border: 1px solid #E58D35;
+
+.btn img {
+  width: 27px;
+  height: 27px;
+  margin-left: 46px;
 }
 /*# sourceMappingURL=style.css.map */
