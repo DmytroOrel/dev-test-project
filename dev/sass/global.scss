@@ -33,3 +33,31 @@ ul{
         }
     }
 }
+.btn{
+    font-size: 15px;
+    border-radius: 90px;
+    line-height: 146%;
+    font-weight: 600;
+    padding: 13px 48px;
+    &.btn-primary{
+        background-color: $primary-cl;
+        border: 1px solid $primary-cl;    
+    }
+    &.btn-primary:hover{
+        background-color: transparent;
+        border: 1px solid $primary-cl;     
+    }
+}
+.btn.btn-primary:active,
+.btn.btn-secondary:active{
+    background-color: $secondary-cl;
+    border-color: $secondary-cl;
+}
+.btn-secondary{
+    background-color: transparent;
+    border: 1px solid $primary-cl;
+    &:hover{
+        background-color: $primary-cl;
+        border: 1px solid $primary-cl;   
+    }
+}

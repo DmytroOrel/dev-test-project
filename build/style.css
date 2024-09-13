@@ -73,4 +73,35 @@ ul li::before {
   background-color: #E58D35;
   transform: rotate(45deg);
 }
+
+.btn {
+  font-size: 15px;
+  border-radius: 90px;
+  line-height: 146%;
+  font-weight: 600;
+  padding: 13px 48px;
+}
+.btn.btn-primary {
+  background-color: #E58D35;
+  border: 1px solid #E58D35;
+}
+.btn.btn-primary:hover {
+  background-color: transparent;
+  border: 1px solid #E58D35;
+}
+
+.btn.btn-primary:active,
+.btn.btn-secondary:active {
+  background-color: #89C249;
+  border-color: #89C249;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid #E58D35;
+}
+.btn-secondary:hover {
+  background-color: #E58D35;
+  border: 1px solid #E58D35;
+}
 /*# sourceMappingURL=style.css.map */
