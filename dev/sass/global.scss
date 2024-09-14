@@ -21,6 +21,7 @@ li{
 ul{
     li{
         position: relative;
+        &:not([class])
         &::before{
             content: "";
             position: absolute;
@@ -39,7 +40,13 @@ ul{
     line-height: 146%;
     font-weight: 600;
     padding: 13px 23px;
-    border: 1px solid $primary-cl;    
+    border: 1px solid $primary-cl;  
+    
+    &img{
+        width: 27px;
+        height: 27px;
+        margin-left: 46px;     
+    }
 
    &:hover{
     text-decoration: none;
@@ -73,9 +80,4 @@ ul{
 .btn-lg{
     font-size: 16px;
     padding: 19px 20px;
-}
-.btn img{
-    width: 27px;
-    height: 27px;
-    margin-left: 46px;
 }
