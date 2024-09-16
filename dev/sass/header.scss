@@ -1,0 +1,17 @@
+.navbar-custom{
+    padding: 21px 0 39px;
+    .navbar-brand{
+        margin: 0;
+    }
+    .nav-item{
+        .nav-link{
+            padding: 12px 21px;
+            margin-top: 2px;
+            color: $text-cl;
+            &:hover{
+                text-decoration: none;
+                color: $primary-cl;
+            }
+        }
+    }
+}
