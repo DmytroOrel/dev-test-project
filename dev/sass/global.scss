@@ -34,6 +34,16 @@ ul{
         }
     }
 }
+.container{
+    max-width: 1140px + 12px + 12px;
+}
+.dropdown-menu{
+    > li{
+        &::before{
+            display: none;
+        }
+    }
+}
 .btn{
     font-size: 15px;
     border-radius: 90px;

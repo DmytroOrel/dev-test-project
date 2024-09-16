@@ -74,6 +74,14 @@ ul li:not([class]) ul li::before {
   transform: rotate(45deg);
 }
 
+.container {
+  max-width: 1164px;
+}
+
+.dropdown-menu > li::before {
+  display: none;
+}
+
 .btn {
   font-size: 15px;
   border-radius: 90px;
@@ -111,5 +119,21 @@ ul li:not([class]) ul li::before {
 .btn-lg {
   font-size: 16px;
   padding: 19px 20px;
+}
+
+.navbar-custom {
+  padding: 21px 0 39px;
+}
+.navbar-custom .navbar-brand {
+  margin: 0;
+}
+.navbar-custom .nav-item .nav-link {
+  padding: 12px 21px;
+  margin-top: 2px;
+  color: #fff;
+}
+.navbar-custom .nav-item .nav-link:hover {
+  text-decoration: none;
+  color: #E58D35;
 }
 /*# sourceMappingURL=style.css.map */
