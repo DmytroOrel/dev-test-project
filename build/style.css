@@ -186,14 +186,25 @@ ul li:not([class]) ul li::before {
     max-width: 126px;
   }
   .navbar-custom {
-    padding: 13px 0 39px;
+    padding: 13px 0 24px;
   }
-  .navbar-collapse {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  .navbar-custom .navbar-brand img {
+    max-width: 126px;
+  }
+  .navbar-custom .navbar-collapse {
     text-align: center;
-    background-color: aqua;
+    background-color: #363A4D;
+    margin: 0 -22px;
+  }
+  .navbar-custom .navbar-nav {
+    padding: 37px 0 34px;
+  }
+  .navbar-custom .nav-item .nav-link {
+    line-height: 222%;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    padding: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

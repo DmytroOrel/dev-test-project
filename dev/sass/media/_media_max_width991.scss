@@ -12,16 +12,35 @@
 
 
     .navbar-custom{
-        padding: 13px 0 39px;
+        padding: 13px 0 24px;
+
+        .navbar-brand{
+            img{
+                max-width: 126px;
+            }
+        }    
+
+        .navbar-collapse{
+            text-align: center;
+            background-color: $section-bg;
+            margin: 0 -22px;
+        }
+
+        .navbar-nav{
+            padding: 37px 0 34px;
+        }
+
+        .nav-item{
+            .nav-link{
+                line-height: 222%;
+                font-size: 24px;
+                font-weight: 400;
+                color: $text-cl;
+                padding: 0;
+            }    
+        }
     }
 
-    .navbar-collapse{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        background-color: aqua;
-    }
 }
 
 
