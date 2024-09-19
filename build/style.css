@@ -127,9 +127,11 @@ ul li:not([class]) ul li::before {
 .navbar-custom .navbar-brand {
   margin: 0;
 }
+.navbar-custom .navbar-nav {
+  margin-top: 2px;
+}
 .navbar-custom .nav-item .nav-link {
   padding: 12px 21px;
-  margin-top: 2px;
   color: #fff;
 }
 .navbar-custom .nav-item .nav-link:hover {
@@ -194,10 +196,18 @@ ul li:not([class]) ul li::before {
   .navbar-custom .navbar-collapse {
     text-align: center;
     background-color: #363A4D;
-    margin: 0 -22px;
+    margin: 0 -22px 0;
+    transform: translate(0, 10px);
+    box-shadow: 14px 22px #363A4D;
+  }
+  .navbar-custom .navbar-collapse .btn {
+    margin-bottom: 60px !important;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 21px 81px;
   }
   .navbar-custom .navbar-nav {
-    padding: 37px 0 34px;
+    padding: 34px 0 23px;
   }
   .navbar-custom .nav-item .nav-link {
     line-height: 222%;
@@ -205,6 +215,7 @@ ul li:not([class]) ul li::before {
     font-weight: 400;
     color: #fff;
     padding: 0;
+    margin-bottom: 11px;
   }
 }
 /*# sourceMappingURL=style.css.map */

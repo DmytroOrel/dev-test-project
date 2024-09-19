@@ -23,11 +23,19 @@
         .navbar-collapse{
             text-align: center;
             background-color: $section-bg;
-            margin: 0 -22px;
+            margin: 0 -22px 0;
+            transform: translate(0, 10px);
+            box-shadow: 14px 22px #363A4D;
+            .btn{
+                margin-bottom: 60px !important;
+                font-weight: 600;
+                font-size: 16px;
+                padding: 21px 81px;
+            }    
         }
 
         .navbar-nav{
-            padding: 37px 0 34px;
+            padding: 34px 0 23px;
         }
 
         .nav-item{
@@ -37,6 +45,7 @@
                 font-weight: 400;
                 color: $text-cl;
                 padding: 0;
+                margin-bottom: 11px;
             }    
         }
     }
