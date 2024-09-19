@@ -198,7 +198,7 @@ ul li:not([class]) ul li::before {
     background-color: #363A4D;
     margin: 0 -22px 0;
     transform: translate(0, 10px);
-    box-shadow: 14px 22px #363A4D;
+    box-shadow: 14px 22px 40px rgba(30, 35, 66, 0.4);
   }
   .navbar-custom .navbar-collapse .btn {
     margin-bottom: 60px !important;
